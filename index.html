@@ -98,7 +98,9 @@
           <p>
             VocaStory’nin yapay zekâ özellikleri kendi API anahtarını kullanır.
             Bir özellik istediğinde veri, Kaymedya Bilişim sunucusuna uğramadan
-            cihazından seçtiğin sağlayıcıya doğrudan iletilir.
+            cihazından seçtiğin sağlayıcıya doğrudan iletilir. Bunun tek
+            istisnası, aşağıda açıklanan ve yalnızca sen gönderdiğinde çalışan
+            isteğe bağlı uygunsuz içerik bildirimidir.
           </p>
           <div class="table-wrap" role="region" aria-label="Üçüncü taraflar" tabindex="0">
             <table>
@@ -125,6 +127,11 @@
                   <td>Sesli okunmasını istediğin kelime veya metin</td>
                   <td>Metni sese dönüştürmek; yerel ya da çevrim içi işleme seçili TTS motoruna bağlıdır</td>
                 </tr>
+                <tr>
+                  <td><a href="https://web3forms.com/privacy">Web3Forms</a> ve Kaymedya Bilişim</td>
+                  <td>Yalnızca açıkça “Gönder” dediğinde seçtiğin bildirim nedeni, ekranda gördüğün ilgili yapay zekâ çıktısı, isteğe bağlı notun, sağlayıcı ve dil kodları, uygulama sürümü ve gönderim zamanı</td>
+                  <td>Uygunsuz, güvensiz veya hatalı yapay zekâ içeriğini incelemek ve güvenlik önlemlerini iyileştirmek</td>
+                </tr>
               </tbody>
             </table>
           </div>
@@ -138,9 +145,11 @@
           <p>
             Serbest metin alanlarına kişisel bilgi yazarsan bu bilgi de seçtiğin
             yapay zekâ sağlayıcısına gönderilebilir. Sağlayıcılar ve görsel
-            sunucuları, internet bağlantısının doğal sonucu olarak IP adresi ve
-            teknik istek bilgilerini de görebilir. Hassas kişisel bilgi girmemeni
-            öneririz.
+            sunucuları ile bir içerik bildirimi gönderdiğinde Web3Forms,
+            internet bağlantısının doğal sonucu olarak IP adresi ve teknik istek
+            bilgilerini de görebilir. İçerik bildirimine API anahtarın, cihaz
+            kimliğin veya tam sohbet geçmişin eklenmez. Serbest metinlere hassas
+            kişisel bilgi girmemeni öneririz.
           </p>
           <p>
             Kaymedya Bilişim kişisel verilerini satmaz; reklam ağı, davranışsal
@@ -181,6 +190,17 @@
             Ağ istekleri HTTPS üzerinden yapılır. Buna rağmen hiçbir depolama veya
             aktarım yöntemi mutlak güvenlik sağlayamaz. Cihaz kilidini korumanı ve
             API anahtarlarını başkalarıyla paylaşmamanı öneririz.
+          </p>
+          <p>
+            Açıkça gönderdiğin yapay zekâ içerik bildirimleri Web3Forms
+            aracılığıyla Kaymedya Bilişim’in e-posta hesabına iletilir. Kaymedya
+            Bilişim bu bildirimleri güvenlik incelemesi için en fazla 90 gün
+            tutar; devam eden bir kötüye kullanım, güvenlik veya yasal yükümlülük
+            için gerekli olan kayıtlar ilgili süreç tamamlanana kadar saklanabilir.
+            Bildiriminin silinmesini istemek için yukarıdaki iletişim adresine
+            yazabilirsin. Web3Forms ücretsiz plandaki form gönderimlerini şu anda
+            30 gün sakladığını belirtir; hizmetin kendi işlem, altyapı ve saklama
+            uygulamaları Web3Forms gizlilik politikasına tabidir.
           </p>
         </section>
 
@@ -253,7 +273,9 @@
           <p>
             VocaStory uses your own API key for AI features. When you request a
             feature, data is sent directly from your device to the provider you
-            selected, without passing through a Kaymedya Bilişim server.
+            selected, without passing through a Kaymedya Bilişim server. The only
+            exception is the optional inappropriate-content report described
+            below, which is sent only when you explicitly submit it.
           </p>
           <div class="table-wrap" role="region" aria-label="Third parties" tabindex="0">
             <table>
@@ -280,6 +302,11 @@
                   <td>The word or text you ask the app to read aloud</td>
                   <td>Convert text to speech; local or online processing depends on the selected TTS engine</td>
                 </tr>
+                <tr>
+                  <td><a href="https://web3forms.com/privacy">Web3Forms</a> and Kaymedya Bilişim</td>
+                  <td>Only after you explicitly tap “Send”: the selected report reason, the relevant AI output visible on screen, your optional note, provider and language codes, app version, and submission time</td>
+                  <td>Review inappropriate, unsafe, or inaccurate AI content and improve safety measures</td>
+                </tr>
               </tbody>
             </table>
           </div>
@@ -292,9 +319,11 @@
           <p>
             If you enter personal information in a free-text field, that
             information may also be sent to the AI provider you selected.
-            Providers and image servers may also observe IP addresses and
-            technical request information as a normal part of an internet
-            connection. Avoid entering sensitive personal information.
+            Providers and image servers, and Web3Forms when you submit a content
+            report, may also observe IP addresses and technical request
+            information as a normal part of an internet connection. Reports do
+            not include your API keys, a device identifier, or your full chat
+            history. Avoid entering sensitive personal information.
           </p>
           <p>
             Kaymedya Bilişim does not sell personal data and does not use ad
@@ -335,6 +364,17 @@
             Network requests use HTTPS. However, no storage or transmission method
             can guarantee absolute security. Protect your device lock and do not
             share API keys with others.
+          </p>
+          <p>
+            AI content reports you explicitly submit are delivered through
+            Web3Forms to Kaymedya Bilişim’s email account. Kaymedya Bilişim keeps
+            a report for safety review for no longer than 90 days; records needed
+            for an ongoing abuse, security, or legal matter may be retained until
+            that process is complete. You may request deletion of your report at
+            the contact address above. Web3Forms currently states that free-plan
+            form submissions are retained for 30 days; its own processing,
+            infrastructure, and retention practices are governed by the
+            Web3Forms privacy policy.
           </p>
         </section>
 
